@@ -1,0 +1,151 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{float}
+\usepackage{listings}
+\usepackage[pdftex]{graphicx}
+\usepackage{amssymb}
+\usepackage{mathrsfs}
+\usepackage{bm}
+\usepackage{subcaption}
+\usepackage{hyperref}
+\usepackage[a4paper, total={6in, 8in}]{geometry}
+%----------------------------------------
+
+\author{Pratik Aghor, Pulkit Dubey, Adhitiya Sivakumar et. al.}
+\title{Instabilities Blog}
+\date{\today}  % Toggle commenting to test
+
+\begin{document}
+
+\maketitle
+To solve and type-down problems from \cite{drazin2004hydrodynamic} and go beyond them. 
+%----------------------------------------
+\section{Chap 2: Thermal Instability}
+%----------------------------------------
+%----------------------------------------
+\subsection{Q 2.3: Boussinesq Convection with Rotation - by PA}
+%----------------------------------------
+The governing equations are given by
+\begin{subequations}
+ \begin{equation}
+  \frac{D\boldsymbol{u}_{i}}{Dt} + 2 (\boldsymbol{\Omega} \times \boldsymbol{u})_{i} = -\nabla \left(\frac{p}{\rho_{0} + gz} + \frac{1}{2}(\boldsymbol{\Omega} \times \boldsymbol{x})_{i}^{2}\right) + g ( 1 - \alpha  (\theta_{0} - \theta) ) \delta_{i3} + \nu \nabla^{2} \boldsymbol{u}_{i}
+ \end{equation}
+ %
+ \begin{equation}
+  \frac{\partial \boldsymbol{u}_{j}}{\partial \boldsymbol{x}_{j}} = 0
+ \end{equation}
+ %
+ \begin{equation}
+  \frac{D\theta}{Dt} = \kappa \nabla^{2} \theta
+ \end{equation}
+\end{subequations}
+
+Where $\boldsymbol{u}$ is the velocity in the rotating frame of reference (rotating with the angular velocity $\boldsymbol{\Omega} = \Omega \boldsymbol{\hat{k}}$) and $\theta_{0}$ is the temperature of the bottom layer.
+
+The basic state is given by
+\begin{equation}
+ \boldsymbol{U} = \boldsymbol{0}, P = - \frac{(\rho_{0} + gz)}{2} (\boldsymbol{\Omega} \times \boldsymbol{x})_{i}^{2}, \Theta = \theta_{0} - \beta z
+\end{equation}
+
+where $\beta = (\theta_{0} - \theta_{1})/d$ is the basic temperature gradient. Perturbing about the basic state, we get
+
+\begin{subequations} \label{eq:2_3_perturbed}
+ \begin{equation}\label{eq:2_3_perturbed_mom}
+  \frac{D\boldsymbol{u}_{i}}{Dt} + 2 (\boldsymbol{\Omega} \times \boldsymbol{u})_{i} = -\nabla \left(\frac{p}{\rho_{0} + gz}\right) + \alpha g (\theta - \theta_{0}) \delta_{i3} + \nu \nabla^{2} \boldsymbol{u}_{i}
+ \end{equation}
+ %
+ \begin{equation}
+  \frac{\partial \boldsymbol{u}_{j}}{\partial \boldsymbol{x}_{j}} = 0
+ \end{equation}
+ %
+ \begin{equation}
+  \frac{D\theta}{Dt} = \kappa \nabla^{2} \theta
+ \end{equation}
+\end{subequations}
+
+Where $\boldsymbol{u}, p, \theta$ are now perturbed velocity, pressure and temperature fields. 
+
+It is easy to check that $2\boldsymbol{\Omega \hat{k}} \times \boldsymbol{u} =  (-2\Omega v)\boldsymbol{\hat{i}} + (2\Omega u)\boldsymbol{\hat{j}}$. This immediately implies  $\nabla \times (2\boldsymbol{\Omega \hat{k}} \times \boldsymbol{u}) = \frac{\partial (-2\Omega u)}{\partial z} \boldsymbol{\hat{i}} + \frac{\partial (-2\Omega v)}{\partial z} \boldsymbol{\hat{j}}  + 2\Omega\left(\frac{\partial u}{\partial x} + \frac{\partial v}{\partial y}\right) \boldsymbol{\hat{k}} = = \frac{\partial (2\Omega u)}{\partial z} \boldsymbol{\hat{i}} + \frac{\partial (2\Omega v)}{\partial z} \boldsymbol{\hat{j}}  - 2\Omega\frac{\partial w}{\partial z} \boldsymbol{\hat{k}}$ since $\nabla \cdot \boldsymbol{u} = 0$. Therefore, $\nabla \times (2\boldsymbol{\Omega \hat{k}} \times \boldsymbol{u}) = -2\Omega \frac{\partial \boldsymbol{u}}{\partial z}$. Now, considering only linear terms in perturbation quantities, for example,
+$\frac{D\theta}{Dt} = \frac{\partial \theta}{\partial t} + \beta w$, etc. and taking the curl of Eqn. (\ref{eq:2_3_perturbed_mom}), we get the perturbation vorticity equation and the perturbation temperature equation:
+\begin{subequations}
+ \begin{equation}\label{eq:2_3_perturbed_vorticity}
+\frac{\partial \boldsymbol{\omega}}{\partial t} - 2\Omega\frac{\partial \boldsymbol{u}}{\partial {z}} = \alpha g \nabla \theta \times \boldsymbol{\hat{k}} + \nu \nabla^{2} \boldsymbol{\omega}.  
+ \end{equation}
+ %
+ \begin{equation} \label{eq:2_3_perturbed_energy}
+  \frac{\partial \theta}{\partial t} + \beta w = \kappa \nabla^{2} \theta
+ \end{equation}
+\end{subequations}
+
+In particular taking the third component of the perturbation vorticity equation \ref{eq:2_3_perturbed_vorticity}, we obtain
+
+\begin{equation}\label{eq:2_3_perturbed_vorticity_z}
+ \frac{\partial \omega_{3}}{\partial t} - 2\Omega\frac{\partial w}{\partial {z}} = \nu \nabla^{2} \omega_{3}.
+\end{equation}
+
+Taking the curl of the perturbation vorticity equation again, we obtain
+\begin{align}\label{eq:2_3_curl_perturbed_vorticity}
+\begin{split}
+ -\frac{\partial \nabla^{2}\boldsymbol{u}}{\partial t} - 2\Omega \frac{\partial \boldsymbol{\omega}}{\partial {z}} &= \alpha g \left(\nabla\left(\frac{\partial \theta}{\partial z} - \nabla^{2} \theta\boldsymbol{\hat{k}}\right) \right) - \nu \nabla^{4} \boldsymbol{u}\\
+\textrm{taking the third component} &  \Rightarrow  \\
+\left(\frac{\partial}{\partial t} - \nu \nabla^{2}\right) \nabla^{2} w &= \alpha g \Delta_{1} \theta - 2 \Omega \frac{\partial \omega_{3}}{\partial z},
+\end{split}
+\end{align}
+
+where $\Delta_{1} = \frac{\partial^{2}}{\partial x^{2}} + \frac{\partial^{2}}{\partial y^{2}}$ is the horizontal Laplacian.
+
+Hence we obtain the system of linearized equations in the perturbation quantities
+\begin{subequations}\label{eq:2_3_perturbed_linear}
+\begin{equation}
+ \left(\frac{\partial }{\partial t} - \kappa \Delta \right) \theta = \beta w
+ \end{equation}
+ \begin{equation}
+  \left(\frac{\partial }{\partial t} - \nu \Delta \right) \omega_{3} = 2\Omega\frac{\partial w}{\partial {z}}
+ \end{equation}
+  \begin{equation}
+\left(\frac{\partial }{\partial t} - \nu \Delta \right) \Delta w = \alpha g \Delta_{1} \theta - 2 \Omega \frac{\partial \omega_{3}}{\partial z}
+\end{equation}
+\end{subequations}
+
+The normal mode ansatz is
+
+$(w, \theta, \omega_{3}) = (W, T, Z)f e^{st}, \Delta_{1} f + a^{2}f = 0$, where $a^{2}$ is an arbitrary constant arising from separation of variables (see text). Substituting the normal mode ansatz into Eqns.(\ref{eq:2_3_perturbed_linear}), we obtain
+
+\begin{subequations}\label{eq:2_3_amplitude}
+ \begin{equation}
+  (D^{2}-a^{2}-s)Z = -\mathcal{T}^{1/2}DW
+ \end{equation}
+ 
+ \begin{equation}
+  (D^{2}-a^{2}-s) T = -W
+ \end{equation}
+ 
+ \begin{equation}
+  (D^{2}-a^{2})(D^{2}-a^{2}-s/Pr)W = a^{2}RT - \mathcal{T}^{1/2}DZ
+ \end{equation}
+\end{subequations}
+where $\mathcal{T} = 4\Omega^{2}d^{4}/\nu^{2}$ is the Taylor number.
+
+Eliminating $T$ and $Z$, we obtain a single equation for $W$.
+
+\begin{equation}
+ (D^{2}-a^{2}-s)\left( (D^{2}-a^{2}-s/Pr)^{2}(D^{2}-a^{2}) + \mathcal{T}D^{2}\right)W = -a^{2}R (D^{2}-a^{2}-s/Pr)W
+\end{equation}
+
+%-----------------------------------------
+%-----------------------------------------
+%-----------------------------------------
+\bibliographystyle{apalike}
+%\bibliographystyle{unsrt} % Use for unsorted references  
+%\bibliographystyle{plainnat} % use this to have URLs listed in References
+%\cleardoublepage
+%\bibliography{References/references} % Path to your References.bib file
+
+\bibliography{bib/references} % Path to your References.bib file
+ \if@openright\cleardoublepage\else\clearpage\fi
+ \cleardoublepage
+ \pagestyle{empty}
+%--------------------------------------------------------------------
+\end{document}
