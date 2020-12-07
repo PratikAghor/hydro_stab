@@ -68,14 +68,14 @@ where $\beta = (\theta_{0} - \theta_{1})/d$ is the basic temperature gradient. P
 Where $\boldsymbol{u}, p, \theta$ are now perturbed velocity, pressure and temperature fields. 
 
 It is easy to check that $2\boldsymbol{\Omega \hat{k}} \times \boldsymbol{u} =  (-2\Omega v)\boldsymbol{\hat{i}} + (2\Omega u)\boldsymbol{\hat{j}}$. This immediately implies  $\nabla \times (2\boldsymbol{\Omega \hat{k}} \times \boldsymbol{u}) = \frac{\partial (-2\Omega u)}{\partial z} \boldsymbol{\hat{i}} + \frac{\partial (-2\Omega v)}{\partial z} \boldsymbol{\hat{j}}  + 2\Omega\left(\frac{\partial u}{\partial x} + \frac{\partial v}{\partial y}\right) \boldsymbol{\hat{k}} = = \frac{\partial (2\Omega u)}{\partial z} \boldsymbol{\hat{i}} + \frac{\partial (2\Omega v)}{\partial z} \boldsymbol{\hat{j}}  - 2\Omega\frac{\partial w}{\partial z} \boldsymbol{\hat{k}}$ since $\nabla \cdot \boldsymbol{u} = 0$. Therefore, $\nabla \times (2\boldsymbol{\Omega \hat{k}} \times \boldsymbol{u}) = -2\Omega \frac{\partial \boldsymbol{u}}{\partial z}$. Now, considering only linear terms in perturbation quantities, for example,
-$\frac{D\theta}{Dt} = \frac{\partial \theta}{\partial t} + \beta w$, etc. and taking the curl of Eqn. (\ref{eq:2_3_perturbed_mom}), we get the perturbation vorticity equation and the perturbation temperature equation:
+$\frac{D\theta}{Dt} = \frac{\partial \theta}{\partial t} - \beta w$, etc. and taking the curl of Eqn. (\ref{eq:2_3_perturbed_mom}), we get the perturbation vorticity equation and the perturbation temperature equation:
 \begin{subequations}
  \begin{equation}\label{eq:2_3_perturbed_vorticity}
 \frac{\partial \boldsymbol{\omega}}{\partial t} - 2\Omega\frac{\partial \boldsymbol{u}}{\partial {z}} = \alpha g \nabla \theta \times \boldsymbol{\hat{k}} + \nu \nabla^{2} \boldsymbol{\omega}.  
  \end{equation}
  %
  \begin{equation} \label{eq:2_3_perturbed_energy}
-  \frac{\partial \theta}{\partial t} + \beta w = \kappa \nabla^{2} \theta
+  \frac{\partial \theta}{\partial t} - \beta w = \kappa \nabla^{2} \theta
  \end{equation}
 \end{subequations}
 
