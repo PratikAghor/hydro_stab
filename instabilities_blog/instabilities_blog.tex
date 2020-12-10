@@ -23,10 +23,10 @@
 To solve and type-down problems from \cite{drazin2004hydrodynamic} and go beyond them. 
 %----------------------------------------
 \section{Chap 2: Thermal Instability}
-%----------------------------------------
-%----------------------------------------
+%-------------------------------------
+%-------------------------------------
 \subsection{Q 2.3: Boussinesq Convection with Rotation - by PA}
-%----------------------------------------
+%-------------------------------------
 The governing equations are given by
 \begin{subequations}
  \begin{equation}
@@ -126,7 +126,7 @@ $(w, \theta, \omega_{3}) = (W, T, Z)f e^{st}, \Delta_{1} f + a^{2}f = 0$, where 
   (D^{2}-a^{2})(D^{2}-a^{2}-s/Pr)W = a^{2}RT - \mathcal{T}^{1/2}DZ
  \end{equation}
 \end{subequations}
-where $\mathcal{T} = 4\Omega^{2}d^{4}/\nu^{2}$ is the Taylor number.
+where $\mathcal{T} = 4\Omega^{2}d^{4}/\nu^{2}$ is the Taylor number and $D = d/dz$.
 
 Eliminating $T$ and $Z$, we obtain a single equation for $W$.
 
@@ -134,9 +134,120 @@ Eliminating $T$ and $Z$, we obtain a single equation for $W$.
  (D^{2}-a^{2}-s)\left( (D^{2}-a^{2}-s/Pr)^{2}(D^{2}-a^{2}) + \mathcal{T}D^{2}\right)W = -a^{2}R (D^{2}-a^{2}-s/Pr)W
 \end{equation}
 
-%-----------------------------------------
-%-----------------------------------------
-%-----------------------------------------
+%-------------------------------------
+%-------------------------------------
+\subsection{Q 2.7: Analytical Solution for Rigid-Rigid Boundaries - by PA}
+%-------------------------------------
+The marginal states (corresponding to $s=0$, where $s$ is the eigenvalue) are given by Eqn.($10.9$) subject to boundary conditions given in Eqn. ($10.10$). We rewrite them here as Eqn.(\ref{eq:2_7_rb_marginal}), Eqn.(\ref{eq:2_7_rb_rigid_rigid_bc}) for the sake of completeness 
+
+\begin{equation}\label{eq:2_7_rb_marginal}
+ (D^{2}-a^{2})^{3} W = - a^{2} R W
+\end{equation}
+\begin{equation}\label{eq:2_7_rb_rigid_rigid_bc}
+ W = DW = (D^{2}-a^{2})^{2} W = 0 \textrm{ at } z = 0, 1
+\end{equation}
+
+where $D = d/dz$ and $a$ is the arbitrary constant (obtained from the separation of variables, to be determined as a part of the problem). 
+
+To solve Eqn.(\ref{eq:2_7_rb_marginal}), we substitute 
+
+\begin{equation}\label{eq:2_7_W_ansatz}
+W = e^{q(z-1/2)}  
+\end{equation}
+
+This gives
+
+\begin{equation}\label{eq:2_7_rb_marginal_roots}
+ (q^{2}-a^{2})^{3} = - a^{2} R = -a^{6} \tau^{3}.
+\end{equation}
+
+Peeking at the solution at the back of the book, we further substituted $R = a^{4}\tau^{3}$, where $\tau = \mathcal{T}^{1/2}$, the square root of the Taylor number $\mathcal{T} = 4\Omega^{2}d^{4}/\nu^{2}$. 
+
+Therefore, 
+
+\begin{equation}
+ q^{2}-a^{2} = -a^{2}\tau \times (1 \textrm{, } \omega \textrm{ or } \omega^{2}),
+\end{equation}
+
+with $\omega = \exp{(2\pi i/3)}$ being the cube root of unity.
+
+$\Rightarrow$
+$$q = a (1- \tau \times (1 \textrm{, } \omega \textrm{ or } \omega^{2}))^{1/2} $$
+
+Therefore
+\begin{equation}\label{eq:2_7_q_roots}
+ q = iq_{0}, q_{1}, q_{2} ( =  q^{*}_{1})
+\end{equation}
+with $q_{0} = a (\tau - 1)^{1/2}, q_{1} = a (1 - \tau \omega)^{1/2}, q_{2} = a (1 - \tau \omega^{2})^{1/2} = q^{*}_{1}$. 
+
+From Eqn. (\ref{eq:2_7_W_ansatz}) and Eqn. (\ref{eq:2_7_q_roots}), the even solution (about $z = 1/2$) can now be written as
+
+\begin{equation}\label{eq:2_7_even_soln}
+\boxed{
+ W = A_{0} \cos{[q_{0}(z-1/2)]} + A_{1} \cosh{[q_{1}(z-1/2)]} + A^{*}_{1} \cosh{[q^{*}_{1}(z-1/2)]}
+ }.
+\end{equation}
+
+Now, let us apply boundary conditions Eqn. \ref{eq:2_7_rb_rigid_rigid_bc}. Since we are considering an even solution and the problem is symmetric with respect to the boundaries, we will only apply them at $z= 0$.  
+
+\begin{align}\label{eq:2_7_apply_bc_naive}
+ \begin{split}
+  A_{0} \cos{(q_{0}/2)} + A_{1}\cosh{(q_{1}/2)} + A^{*}_{1}\cosh{(q^{*}_{1}/2)} & = 0 \\
+  %
+  -A_{0}q_{0}\sin{(q_{0}/2)} + A_{1}q_{1}\sinh{(q_{1}/2)} + A^{*}_{1}q^{*}_{1}\sinh{(q^{*}_{1}/2)} & = 0\\
+  %
+  A_{0}(q_{0}^{2} + a^{2})^{2}\cos{(q_{0}/2)} + A_{1}(q_{1}^{2} - a^{2})^{2}\cosh{(q_{1}/2)} + A^{*}_{1}({q^{*}_{1}}^{2} - a^{2})^{2}\cosh{(q^{*}_{1}/2)}  & = 0 \\
+  %
+  \textrm{i. e.}\\
+  A_{0}\cos{(q_{0}/2)} + A_{1}\omega \cosh{(q_{1}/2)} + A^{*}_{1}\omega \cosh{(q^{*}_{1}/2)} & = 0.
+ \end{split}
+\end{align}
+
+Substituting $A_{0} \cos{(q_{0}/2)} = A'_{0}, A_{1}\cosh{(q_{1}/2)} = A'_{1}$ and $A^{*}_{1}\cosh{(q^{*}_{1}/2)} = A'^{*}_{1}$
+%
+\begin{equation}\label{eq:2_7_matrix_form}
+\begin{bmatrix}
+1   &   1   &   1 \\
+\tan({q_{0}/2})   &   \tanh({q_{1}/2})   &   \tanh({q^{*}_{1}/2})\\
+1   &   \omega &   \omega^{*}\\
+\end{bmatrix}
+\begin{bmatrix}
+ A'_{0}\\
+ A'_{1}\\
+ A'^{*}_{1}\\
+\end{bmatrix} 
+= \boldsymbol{0}.
+\end{equation}
+
+For Eqn. (\ref{eq:2_7_matrix_form}) to have nontrivial solutions, the determinant of the matrix must be zero. This gives the required eigenvalue relation
+
+\begin{equation}\label{eq:2_7_rigid_rigid_eig}
+\boxed{
+ Im \{(\sqrt{3} + i)q_{1} \tanh{(q_{1}/2)} \} + q_{0} \tan{(q_{0}/2)} = 0
+ }.
+\end{equation}
+
+To find the critical Rayleigh number $R_{c}$ and corresponding $a_{c}$, we have to solve Eqn. \ref{eq:2_7_rigid_rigid_eig} recursively. From \cite{reid1958some}, we obtain $a_{c} = 3.117, R_{c} = 1707.762$. 
+%-------------------------------------
+\subsubsection{Bonus: Odd solution}
+Proceeding as above, we can also write the odd solution (about $z = 1/2$) as follows
+
+\begin{equation}\label{eq:2_7_odd_soln}
+\boxed{
+ W = A_{0} \sin{[q_{0}(z-1/2)]} + A_{1} \sinh{[q_{1}(z-1/2)]} + A^{*}_{1} \sinh{[q^{*}_{1}(z-1/2)]}
+ }.
+\end{equation}
+
+and obtain the counterpart eigenvalue relation Eqn. (\ref{eq:2_7_rigid_rigid_eig}) as
+
+
+\begin{equation}\label{eq:2_7_rigid_rigid_eig_2}
+\boxed{
+ Im \{(\sqrt{3} + i)q_{1} \coth{(q_{1}/2)} \} + q_{0} \cot{(q_{0}/2)} = 0
+ }.
+\end{equation}
+%-------------------------------------
+%-------------------------------------
 \bibliographystyle{apalike}
 %\bibliographystyle{unsrt} % Use for unsorted references  
 %\bibliographystyle{plainnat} % use this to have URLs listed in References
