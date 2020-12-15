@@ -107,7 +107,7 @@ where $\mathcal{T} = 4\Omega^{2}d^{4}/\nu^{2}$ is the Taylor number and $D = d/d
 
 Eliminating $T$ and $Z$, we obtain a single equation for $W$.
 
-\begin{equation}
+\begin{equation}\label{eq:rotating_RB_W_eqn}
  (D^{2}-a^{2}-s)\left( (D^{2}-a^{2}-s/Pr)^{2}(D^{2}-a^{2}) + \mathcal{T}D^{2}\right)W = -a^{2}R (D^{2}-a^{2}-s/Pr)W
 \end{equation}
 
@@ -223,4 +223,63 @@ and obtain the counterpart eigenvalue relation Eqn. (\ref{eq:2_7_rigid_rigid_eig
  Im \{(\sqrt{3} + i)q_{1} \coth{(q_{1}/2)} \} + q_{0} \cot{(q_{0}/2)} = 0
  }.
 \end{equation}
+%------------------------------------
+%------------------------------------
+\section{Q 2.10: Instability with Rotation - by PA}
+%------------------------------------
+A solution to Eqn. (\ref{eq:rotating_RB_W_eqn}) is $W = \sin{j \pi z}$. Substituting in Eqn. (\ref{eq:rotating_RB_W_eqn}), 
+
+\begin{equation}\label{eq:2_10_s_eqn}
+ (s + a^{2} + j^{2}\pi^{2})\left( (j^{2}\pi^{2} + a^{2} + s/Pr)^{2}(j^{2}\pi^{2} + a^{2}) + \mathcal{T}j^{2}\pi^{2}\right) = a^{2}R(j^{2}\pi^{2} + a^{2} + s/Pr). 
+\end{equation}
+Hence, 
+\begin{equation}
+ R = \frac{(s + a^{2} + j^{2}\pi^{2})\left( (j^{2}\pi^{2} + a^{2} + s/Pr)^{2}(j^{2}\pi^{2} + a^{2}) + \mathcal{T}j^{2}\pi^{2}\right)}{a^{2} (j^{2}\pi^{2} + a^{2} + s/Pr)}
+\end{equation}
+
+We will follow the analysis in $\S 29$ of \cite{chandrasekhar1961hydrodynamic}. We note that $s$ can be complex. In order to look for solutions which are oscillatory at the onset, we look for $s$ purely imaginary. Following \cite{chandrasekhar1961hydrodynamic}, \cite{drazin2004hydrodynamic}, we do the following substitutions for the sake of simplicity. 
+
+\begin{equation}\label{eq:2_10_substitutions}
+ R = j^{4}\pi^{4}R_{1}, s = i \omega j^{2}\pi^{2} Pr, \mathcal{T} = j^{4}\pi^{4}T_{1}, j^{2}\pi^{2} + a^{2} = j^{2}\pi^{2} y.
+\end{equation}
+
+Eqn. (\ref{eq:2_10_s_eqn}) becomes
+\begin{equation*}
+ j^{2}\pi^{2}(y + i\omega Pr)\left(j^{4}\pi^{4}(y + i\omega)^{2} \cdot j^{2}\pi^{2}y + j^{6}\pi^{4}T_{1}\right) = j^{2}\pi^{2} (y-1)j^{4}\pi^{4}R_{1}\cdot j^{2}\pi^{2}(y + i\omega) 
+\end{equation*}
+
+i.e.,
+\begin{align}\label{eq:2_10_R1}
+ \begin{split}
+  R_{1} &= (y + i\omega Pr)\left[y(y + i\omega)^{2} + T_{1} \right]/(y-1)(y+i\omega) \\
+  & = (y + i\omega Pr)\left[y(y + i\omega)(y^{2}+\omega^{2}) + T_{1}(y-i\omega)\right]/(y-1)(y^{2}+\omega^{2})
+ \end{split}
+\end{align}
+
+Since we are looking for $s$ purely imaginary, we assume $\omega$ to be purely real. In general, as argued in $\S 29$ of \cite{chandrasekhar1961hydrodynamic}, Eqn.(\ref{eq:2_10_R1}) would yield a complex $R_{1}$. However, physically, $R_{1}$ is just a scaled Rayleigh number and should be purely real. Hence, we separate out the real and imaginary parts of Eqn.(\ref{eq:2_10_R1}) to obtain
+\begin{align}\label{eq:2_10_R1_re_im}
+ \begin{split}
+  R_{1} &= \left[y(y^{2} + \omega^{2}Pr) (y^{2}+\omega^{2}) + T_{1}(y^{2} + \omega^{2}Pr)\right]/(y-1)(y^{2}+\omega^{2})\\
+  0 &= \omega y \left[y(1 + Pr)(y^{2}+\omega^{2}) + T_{1}(Pr - 1) \right]/(y-1)(y^{2}+\omega^{2})
+ \end{split}
+\end{align}
+
+This implies
+\begin{align}\label{eq:2_10_omega_R1_expressions}
+ \begin{split}
+  \omega^{2} &= T_{1}(1-Pr)/y(1+Pr) - y^{2}\\
+  R_{1} &= 2(1+Pr) \frac{\left[y^{3} + \frac{Pr^{2}T_{1}}{(1+Pr)^{2}} \right]}{(y+1)}
+ \end{split}
+\end{align}
+
+For overstable oscillations, we want $\omega^{2} > 0$, giving, 
+
+\begin{equation}\label{eq:2_10_overstability_cond}
+ \boxed{
+ T_{1} > y^{3} (1+Pr)/(1-Pr)
+ }
+\end{equation}
+
+
+
 %------------------------------------
