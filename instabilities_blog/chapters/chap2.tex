@@ -279,7 +279,30 @@ For overstable oscillations, we want $\omega^{2}$ to be real and non-zero, givin
  T_{1} > y^{3} (1+Pr)/(1-Pr)
  }
 \end{equation}
-
-
-
 %------------------------------------
+%-------------------------------------
+\section{Q 2.11: Annular Cells - by PA}
+%-------------------------------------
+$\Delta_{1} f + a^{2}f = 0$ where $\Delta_{1} = \frac{\partial^{2}}{\partial x^{2}} + \frac{\partial^{2}}{\partial y^{2}}$ is the horizontal Laplacian, takes the form 
+
+\begin{equation}\label{eq:2_11_bessel}
+ \frac{d^{2}f}{dr^{2}} + \frac{1}{r}\frac{df}{dr} + a^{2}f = 0
+\end{equation}
+if $f \equiv f(r)$. The solutions to Eqn. (\ref{eq:2_11_bessel}) are the well-known Bessel functions $f = J_{0}(ar), Y_{0}(ar)$. We discard the $Y_{0}(ar)$ solution because we want f to be bounded as $r \rightarrow 0$. 
+
+Hence,
+\begin{align}
+ \begin{split}
+  f &= AJ_{0}(ar)\\
+  w &= A J_{0}(ar) \sin{j\pi z}
+ \end{split}
+\end{align}
+
+ \begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.5]{Figs/Bessel_Functions.png}
+    \caption{Bessel functions of the first kind}
+    \label{fig:Bessel_Functions}
+\end{figure}
+
+Since $J_{0}(ar)$ oscillates from positive to negative and back to positive values, concentric annular cells can exist. 
