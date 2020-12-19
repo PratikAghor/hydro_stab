@@ -2,7 +2,7 @@
 \chapter{Centrifugal Instability}
 %------------------------------------
 %------------------------------------
-\section{The Oscillations of a Rotating Column of Liquid:}
+\section{Q. 3.1: The Oscillations of a Rotating Column of Liquid - by PA:}
 %------------------------------------
 Eliminating $u, v, w$ from the linearized perturbation equations (see \cite{drazin2004hydrodynamic} for details), we obtain the following equation and boundary conditions for the pressure perturbation  $\varpi$, where $p/\rho = \varpi e^{st + i(m\theta + k z)}$. In this problem $R_{1}=0$ and $R_{2}=R_{0}$. 
 
@@ -56,3 +56,51 @@ For the graphs of $is/\Omega_{0}$ Pulkit Dubey (PD) has a mathematica code, whic
     \caption{Dispersion relation $is/\Omega_{0}$ vs. $a$, reproduced from \cite{chandrasekhar1961hydrodynamic}.}
     \label{fig:rotating_col_dispersion_chandra}
 \end{figure}
+%------------------------------------
+\section{Q. 3.2: The analogue of Rayleigh's inflexion point theorem for two-dimensional disturbances of rotating and curved flows - by PA:}
+%------------------------------------
+As in sec. $\S 15.3$, we only consider $2d$, non-axisymmetric disturbances in the $\theta-z$ plane and define a stream-function $\psi'$ of the perturbation
+
+\begin{equation}\label{eq:3_2_streamfunction}
+ u'_{r} = \frac{1}{r}\frac{\partial \psi'}{\partial \theta} \textrm{, } u'_{\theta} = -\frac{\partial \psi'}{\partial r}. 
+\end{equation}
+
+We then perform a normal mode analysis on the perturbation streamfunction with $\psi'(r, \theta, t) = \phi(r) \exp{[st + i n \theta]}$, set $d/dz = 0$, eliminate pressure, to get
+\begin{equation}\label{eq:3_2_phi}
+ (s + i n \Omega)(D_{*}D - n^{2}/r^{2})\phi - inr^{-1}(DZ)\phi = 0,
+\end{equation}
+with $D = d/dr, D_{*} = d/dr + 1/r$ and $Z = r D\Omega + 2\Omega$ is the basic vorticity. 
+
+Multiplying Eqn. \ref{eq:3_2_phi} by $r\phi^{*}/(s + i n \Omega)$, we obtain
+\begin{equation}\label{eq:3_2_integrand}
+ r\phi^{*}\left(D_{*}D - \frac{n^{2}}{r^{2}} \right)\phi - \frac{in DZ}{s+in\Omega}\phi \phi^{*} = 0
+\end{equation}
+
+Focusing on the $\int_{R_{1}}^{R_{2}} r\phi^{*}D_{*}D \phi dr$ term, 
+
+\begin{align}
+ \begin{split}
+  \int r\phi^{*}D_{*}D \phi dr & = \int r\phi^{*}\left(\frac{d^{2} \phi}{dr^{2}} + \frac{1}{r}\frac{d\phi}{dr}\right)dr\\
+%  
+  & = r\phi^{*}\frac{d\phi}{dr} - \left[\int r \frac{d\phi^{*}}{dr}\frac{d\phi}{dr} dr+ \cancel{\int \phi^{*}\frac{d\phi}{dr} dr}\right] + \cancel{\int \phi^{*}\frac{d\phi}{dr} dr} 
+ \end{split}
+\end{align}
+
+This gives
+\begin{equation}\label{eq:3_2_integral}
+ \int_{R_{1}}^{R_{2}} r \left\{ |D\phi|^{2} + \frac{n^{2}}{r^{2}}|\phi|^{2} + \frac{in(DZ)|\phi|^{2}}{s + in\Omega}\right\}dr = \left[ r \phi^{*}D\phi\right]_{R_{1}}^{R_{2}}
+\end{equation}
+
+Due to rigid cylinders, $\phi = \phi^{*} = 0$ at $R_{1}$ and $R_{2}$ and hence RHS vanishes. Note that
+\begin{equation}
+\frac{in(DZ)|\phi|^{2}}{s + in\Omega} = \frac{in(s - in\Omega)(DZ)|\phi|^{2}}{|s + in\Omega|^{2}} 
+\end{equation}
+
+For instability, we know $ s > 0$ must be satisfied. Taking the imaginary part of Eqn. (\ref{eq:3_2_integral}), we obtain the analogue of Rayleigh's inflexion point theorem for two-dimensional disturbances of rotating and curved flows:
+
+\begin{equation}\label{eq:3_2_rotating_Rayleigh_inflexion}
+ n\int_{R_{1}}^{R_{2}}\frac{(DZ)|\phi|^{2}}{|s + in\Omega|^{2}} dr = 0. 
+\end{equation}
+
+Eqn. (\ref{eq:3_2_rotating_Rayleigh_inflexion}) implies that the sign of $(DZ)$ must change at least once between $R_{1}$ and $R_{2}$ for an instability to occur (necessary condition, not sufficient). 
+%------------------------------------
