@@ -104,3 +104,39 @@ For instability, we know $ s > 0$ must be satisfied. Taking the imaginary part o
 
 Eqn. (\ref{eq:3_2_rotating_Rayleigh_inflexion}) implies that the sign of $(DZ)$ must change at least once between $R_{1}$ and $R_{2}$ for an instability to occur (necessary condition, not sufficient). 
 %------------------------------------
+%------------------------------------
+\section{Q. 3.3: Jump Conditions - by PA:}
+%------------------------------------
+We consider the inviscid problem with $2d$ non-axisymmetric disturbances (No variation in $z$, $d/dz = 0, k = 0$.). We also suppose $\Omega$ or $D\Omega$ are discontinuous at $R_{0}$. Let the perturbed interface be given by $ r = R_{0} + \xi$, where $\xi = \xi_{0}\exp{(st + in\theta)}$.
+
+To obtain the first jump condition, we require the normal velocity (in this case $u$) to be continuous across the perturbed interface. 
+\begin{equation}\label{eq:3_3_u_continuity}
+ u|_{R_{0}} = \frac{Dr}{Dt} = \left.\frac{D\xi}{Dt}\right\vert_{R_{0}} = \frac{\partial \xi}{\partial t} + \Omega \frac{\partial \xi}{\partial \theta} = \xi_{0}(s + in\Omega) 
+\end{equation}
+to the first order in perturbation. 
+
+From Eqn.($15.22$) of \cite{drazin2004hydrodynamic}, $u = inr^{-1}\phi$, giving
+
+\begin{align}\label{eq:3_3_first_jump_cond}
+\begin{split}
+ & \frac{in\phi}{R_{0}} = \xi_{0}(s + in\Omega)\\
+ & \Rightarrow \boxed{\Delta \left[\frac{in \phi}{s + in\Omega} \right] = 0}.
+\end{split}
+\end{align}
+
+Where $\Delta f = f(R_{0}^{+}) - f({R_{0}^{-}})$ as defined in the problem.
+
+To obtain the second jump condition, we have $\Delta [\textrm{total pressure}] = 0$.
+\begin{align}
+ \begin{split}
+ \Delta \left[ P(R_{0}+\xi) + p'(R_{0}+\xi) \right] &= 0\\
+ \Delta \left[\cancel{(R_{0})} + \xi \frac{dP}{dr} + p'(R_{0}) \right] & \approx 0\\
+ \Delta \left[\xi_{0} \frac{dP}{dr} + \rho \varpi \right] & \approx 0\\
+ \textrm{From Eqn.} & 15.22\\
+ \varpi &= - \frac{r}{in}[(s + in\Omega)v + (D_{*}V)u]\\
+ \varpi &= \frac{1}{in}[r(s + in\Omega)D\phi - inZ\phi]\\
+ \xi_{0} &=\frac{u}{(s+in\Omega)} = \frac{in}{r}\frac{\phi}{(s+in\Omega)}\\
+ \frac{1}{\rho}\frac{dP}{dr} & = \Omega^{2}r\\
+ \Rightarrow \Delta[r(s + in\Omega)D\phi - inZ\phi - n^{2}\Omega^{2}\phi/(s+in\Omega)] & = 0 \textrm{ at } r = R_{0}. 
+\end{split}
+\end{align}
