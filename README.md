@@ -1,5 +1,5 @@
 # Instabilities blog:
-### Authors: Pratik Aghor, Pulkit Dubey, Adhithya Sivakumar et. al. 
+### Authors: Pratik Aghor and Adhithya Sivakumar 
 
 * The blog is to solve and type-down selected problems from the classic text - 'Hydrodynamic Stability' by Drazin and Ried.
 * The solutions are available at the back of the text, but the point is to try to do them and go beyond them.
