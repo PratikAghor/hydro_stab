@@ -46,14 +46,14 @@ We will now use the framework set up above in order to lend some precision to ou
     \item It will grow and change the character of the basic state (cf. bifurcation), in which case, the basic state is \emph{unstable}, and is only observed in transience (if ever).
 \end{enumerate}
 With these heuristics in mind, we will now define precisely what it means for a basic state to be stable. 
-\subsubsection{Lyapunov and Asymptotic Stability}
-A given basic state $\uc(\xx, t)$ is \textbf{Lyapunov stable} if for any $\vep > 0$, $\exists$ a $\delta > 0$ such that if $||\uc(\xx, 0) - \uu(\xx, 0)|| < \delta$, then $||\uc(\xx, t) - \uu(\xx, t)|| < \vep$. Further, it is \textbf{asymptotically stable} if $||\uc(\xx, t) - \uu(\xx, t)|| \ra 0$ as $t \ra \infty$. 
+\subsubsection{Stability and Asymptotic Stability (\` a la Lyapunov)}
+A given basic state $\uc(\xx, t)$ is \textbf{stable} if for any $\vep > 0$, $\exists$ a $\delta > 0$ such that if $||\uc(\xx, 0) - \uu(\xx, 0)|| < \delta$, then $||\uc(\xx, t) - \uu(\xx, t)|| < \vep$. Further, it is \textbf{asymptotically stable} if $||\uc(\xx, t) - \uu(\xx, t)|| \ra 0$ as $t \ra \infty$. 
 
 \textbf{Note:} If the basic flow is unsteady, the usual choices of norm are unlikely to be reliable and a ``time-dependent norm'' will have to be chosen for the above definitions to be meaningful. 
 
-The correspondence between the temporal behaviour of the eigenfunctions of $\la$, the linear operator derived from the governing equations, and the actual spatiotemporal behaviour of the full solution $\uu(\xx, t)$ can be subtle (especially when $\sigma = 0$), however, even within the narrow confines of a linear analysis, there is still much that can be said relating the two. 
+The correspondence between the temporal behaviour of the eigenfunctions of $\la$, the linear operator derived from the governing equations, and the actual spatiotemporal behaviour of the full solution $\uu(\xx, t)$ can be subtle (especially when $\sigma = 0$), however, even within the narrow confines of a linear analysis, there is a lot that can be said relating the two. 
 
-\subsubsection{A Taxonomy of Transition}
+\subsubsection{A Taxonomy of Transitions}
 
 \begin{enumerate}
     \item A single mode $\hat{\uu}(z)|_{k,l;R}$ is said to be stable/asymptotically stable when $\sigma < 0$, unstable when $\sigma > 0$, and neutrally stable when $\sigma = 0$. A neutrally stable mode (at a particular value of the control parameter $R$) is marginally stable if it is unstable for neighbouring values of $R$, i.e, $\sigma = 0$ at $R$ but $\sigma > 0$ at any $R + \delta R$, where $\delta R$ is small. 
@@ -67,5 +67,16 @@ The correspondence between the temporal behaviour of the eigenfunctions of $\la$
     \item If $\sigma = \omega = 0$ at marginal stability, exchange of stabilities is said to take place (cf. turning point, transcritical, pitchfork bifurcations). That is to say, the primary flow (the basic state) becomes unstable, and the instability becomes dominant, producing a secondary flow (e.g., the appearance of regularly tiled cells in Rayleigh-Benard convection). 
     
     \item If no unstable perturbation mode has a zero group velocity, then the instability is called a convected instability. If at least one mode has a zero group velocity, it is called an absolute instability. The latter grows in some fixed points in space, the former does not. 
+    
+    \subsection{The Perils of Living in a Linear World}
+    
+    Much like those poor souls trapped in Plato's cave, the linear stability analyst is exposed only to part of the story -- the linear shadowplay of an inherently nonlinear phenomenon. However, Drazin points out, our situation isn't so dire. Linear stability criteria tend to apply pretty well in practice (for Newtonian fluids in particular). Nevertheless, we must remember that: 
+    \begin{itemize}
+        \item Linear stability (instability) of a basic state does not always imply its nonlinear stability (instability). In particular, neutral or near neutral (slowly temporal variation) basic states are prone to being taken over by nonlinear effects that act on quicker timescales. 
+        
+        \item The stability of solutions to the linearized problem itself does not always depend on eigenpairs of the linear operator $\la$. 
+    \end{itemize}
+    
+    \section{Bifurcations}
 \end{enumerate}
 
