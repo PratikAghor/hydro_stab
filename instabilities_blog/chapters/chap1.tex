@@ -1,4 +1,71 @@
 %------------------------------------
-\chapter{Introduction}
+\chapter{Themes and Variations}
 %------------------------------------
+
+This chapter aims to provide a (relatively) quick and (definitely) dirty overview of notions that are fundamental to the study of hydrodynamic (in)stability. Since instability is easier imagined than defined, let us now pretend to know what we are talking about and say that broadly speaking, instabilities in fluid motion arise from disturbances due to:
+\begin{enumerate}
+    \item \textbf{External Forces:} These may be \emph{thermal instabilities}, due to buoyancy, surface tension, etc, or \emph{centrifugal instabilities}, due to centrifugal/coriolis forces. An example exhibiting the former is Rayleigh-Benard convection, and for the latter, a plausible example is Taylor-Couette flow. 
+        
+    \item \textbf{Internal Forces:} Without external forces, fluid dynamics are dictated by the balance between inertial, pressure, and viscous forces. Inertial and pressure terms have the expected effects. Unchecked, both of those terms have destabilizing effects. The viscous term is usually thought of as having a stabilizing influence, but it can destabilize parallel shear flows (cf. viscous instabilities). 
+    
+    \item \textbf{Unsteadiness, BCs, etc.}
+\end{enumerate}
+The evolution of these disturbances (provided they are small enough) can be studied formally through linear and weakly nonlinear analysis of the governing equations, which are presented below. 
+
+\section{The Navier-Stokes Equations}
+The equations below are valid for Newtonian fluids and are presented in terms of primitive variables $\uu(\xx, t), \rho(\xx, t), p(\xx)$.
+\subsection{Cartesian Form}
+\begin{align*}
+    \pd_t \rho + \uu \cdot \nabla \rho &= - \rho \nabla \cdot \uu\\
+    \pd_t \uu + \uu \cdot \nabla \uu &= - \nabla p + \nu \nabla^2\uu + \textbf{F}_b\\
+    \pd_t I + \uu \cdot \nabla I &= \Dot{Q} - p\alpha \nabla \cdot \uu \\
+    \rho &= \rho(p, I)
+\end{align*}
+
+\section{Linear Stability Analysis}
+When the disturbance to a well-defined flow is small enough, we may study the evolution of the disturbance by linearizing the governing equations about this flow. One of the easiest ways to do this is through the \textbf{method of normal modes}, or, as we will call it: 
+
+\subsection{The Crank\texttrademark}
+\begin{enumerate}
+    \item Define a \emph{basic state} $\uc(\xx, t), P(\xx, t)$, etc. This is ideally an exact solution of the governing equations (with particular boundary conditions), but is more generally approximate. The basic state might be steady or unsteady, and is often not trivial to calculate. 
+    
+    \item \emph{Linearize} the governing PDEs about the basic state. This is done by defining perturbation quantities (e.g. $\uu' = \uc - \uu$) that are small in a normative sense, plugging those into the PDEs, and choosing to neglect certain products of perturbation quantities. It behooves the practitioner of this method to check whether this step is justified, and provide conditions so that it is. When done right, the result is a system of \textbf{linear, homogeneous PDEs} with \textbf{time-invariant coefficients} for the perturbation quantities. These will be called the \emph{linearized equations}.
+    
+    \item The possibility of solving the linearized system produced above through Fourier or Laplace transforms inspires a single-mode solution ansatz of the somewhat general form: \[\hat{\uu}(z, k, l, s; R) e^{st + i(kx + ly)} + c.c., \quad s = \sigma + i\omega\] where primes have been dropped for convenience and $\hat{\uu}$ is in general complex. We can imagine the solution above being produced as the result of a Fourier transform in an unbounded direction (or a Fourier series in a periodic direction), a Laplace transform in time, and no transform in bounded directions. The full solution is, of course, a linear combination of all normal modes, each mode being specified by the pair $(k, l)$. 
+    
+    \item Plugging this normal mode ansatz into the PDE produces a generalized eigenvalue problem $\la\hat{\uu} = sB\hat{\uu}$ whose solution can be used to infer the spatiotemporal behaviour of each mode for various values of the parameter $R$.
+\end{enumerate}
+The validity of this method depends on whether it is possible to find a complete set of normal modes for a given operator.
+
+\subsection{Notions of Stability}
+
+We will now use the framework set up above in order to lend some precision to our ideas of stability. In practice, perturbations beset every flow (and thus every basic state, once a flow reaches it). One of these three things will happen to any perturbation: 
+\begin{enumerate}
+    \item It will decay and die away relative to the basic state. We will call this \emph{asymptotic stability} of the basic state. A steady basic state is observed in practice only if it is asymptotically stable to \textbf{\emph{all}} perturbations. 
+    \item It will remain $O(1)$ relative to the basic state. This is called \emph{neutral stability} of the basic state. The basic state is then observed alongside the disturbance. 
+    \item It will grow and change the character of the basic state (cf. bifurcation), in which case, the basic state is \emph{unstable}, and is only observed in transience (if ever).
+\end{enumerate}
+With these heuristics in mind, we will now define precisely what it means for a basic state to be stable. 
+\subsubsection{Lyapunov and Asymptotic Stability}
+A given basic state $\uc(\xx, t)$ is \textbf{Lyapunov stable} if for any $\vep > 0$, $\exists$ a $\delta > 0$ such that if $||\uc(\xx, 0) - \uu(\xx, 0)|| < \delta$, then $||\uc(\xx, t) - \uu(\xx, t)|| < \vep$. Further, it is \textbf{asymptotically stable} if $||\uc(\xx, t) - \uu(\xx, t)|| \ra 0$ as $t \ra \infty$. 
+
+\textbf{Note:} If the basic flow is unsteady, the usual choices of norm are unlikely to be reliable and a ``time-dependent norm'' will have to be chosen for the above definitions to be meaningful. 
+
+The correspondence between the temporal behaviour of the eigenfunctions of $\la$, the linear operator derived from the governing equations, and the actual spatiotemporal behaviour of the full solution $\uu(\xx, t)$ can be subtle (especially when $\sigma = 0$), however, even within the narrow confines of a linear analysis, there is still much that can be said relating the two. 
+
+\subsubsection{A Taxonomy of Transition}
+
+\begin{enumerate}
+    \item A single mode $\hat{\uu}(z)|_{k,l;R}$ is said to be stable/asymptotically stable when $\sigma < 0$, unstable when $\sigma > 0$, and neutrally stable when $\sigma = 0$. A neutrally stable mode (at a particular value of the control parameter $R$) is marginally stable if it is unstable for neighbouring values of $R$, i.e, $\sigma = 0$ at $R$ but $\sigma > 0$ at any $R + \delta R$, where $\delta R$ is small. 
+    
+    \item For systems with multidimensional a parameter space (say, $\alpha \in \R^3$, for example), we might define a marginal stability (or neutral stability) surface $f(\alpha_1, \alpha_2, \alpha_3) = 0$. Here, $\alpha_i$ is either an external control parameter or a wavenumber. 
+    
+    \item A basic state is said to be stable if $\sigma \leq 0$ for all perturbation modes, and unstable if $\sigma > 0$ for at least one perturbation mode. The value of a parameter at which the basic state first becomes unstable when the parameter is varied monotonically is called the critical value of that parameter. The mode which first becomes unstable in this process is the fastest growing mode (or least stable mode, or most unstable mode) with respect to that parameter. 
+    
+    \item If $\omega \neq 0$ as $\sigma$ decreases to zero (e.g. as a control parameter is varied) for a particular disturbance, an oscillatory instability sets in (something that waxes and wanes in time at a particular location, a travelling wave, cf. Hopf bifurcation). This is sometimes called overstability.
+    
+    \item If $\sigma = \omega = 0$ at marginal stability, exchange of stabilities is said to take place (cf. turning point, transcritical, pitchfork bifurcations). That is to say, the primary flow (the basic state) becomes unstable, and the instability becomes dominant, producing a secondary flow (e.g., the appearance of regularly tiled cells in Rayleigh-Benard convection). 
+    
+    \item If no unstable perturbation mode has a zero group velocity, then the instability is called a convected instability. If at least one mode has a zero group velocity, it is called an absolute instability. The latter grows in some fixed points in space, the former does not. 
+\end{enumerate}
 
