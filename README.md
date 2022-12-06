@@ -8,3 +8,6 @@
 2. To develop intuition about various classical fluid stability problems.
 3. To solve the derived equations using analytical (asymptotics and perturbation methods) and/or numerical methods (spectral methods, shooting, Newton iterations, etc.) and to compare the results with the known literature. 
 4. To write Dedalus scripts for the solved problems in the text as well. 
+
+
+
