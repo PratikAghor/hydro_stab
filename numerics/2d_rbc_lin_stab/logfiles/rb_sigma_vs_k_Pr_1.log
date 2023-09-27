@@ -1,0 +1,488 @@
+############################################################################# 
+2023-09-27 11:27:16,902 __main__ 0/1 INFO :: Computing Stability for Pr=1.000e+00, nz = 32
+2023-09-27 11:27:16,904 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:16,912 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:17,074 __main__ 0/1 INFO :: RaT = 1.700000e+03; kx = 2.500000e+00; Growth rate = -7.721648277876956e-01; frequency = 1.806037835907973e-14
+2023-09-27 11:27:17,074 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:17,082 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:17,260 __main__ 0/1 INFO :: RaT = 1.700000e+03; kx = 2.552632e+00; Growth rate = -6.561096688907656e-01; frequency = 1.487878039184556e-14
+2023-09-27 11:27:17,263 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:17,271 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:17,422 __main__ 0/1 INFO :: RaT = 1.700000e+03; kx = 2.605263e+00; Growth rate = -5.500601059557481e-01; frequency = 2.233087457303127e-15
+2023-09-27 11:27:17,423 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:17,431 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:17,618 __main__ 0/1 INFO :: RaT = 1.700000e+03; kx = 2.657895e+00; Growth rate = -4.541378539859521e-01; frequency = 1.356791116940454e-12
+2023-09-27 11:27:17,619 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:17,628 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:17,809 __main__ 0/1 INFO :: RaT = 1.700000e+03; kx = 2.710526e+00; Growth rate = -3.684494055490817e-01; frequency = 2.198834033627017e-14
+2023-09-27 11:27:17,809 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:17,818 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:17,977 __main__ 0/1 INFO :: RaT = 1.700000e+03; kx = 2.763158e+00; Growth rate = -2.930869159023758e-01; frequency = -2.024129373133399e-14
+2023-09-27 11:27:17,978 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:17,997 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:18,159 __main__ 0/1 INFO :: RaT = 1.700000e+03; kx = 2.815789e+00; Growth rate = -2.281290601791854e-01; frequency = 0.000000000000000e+00
+2023-09-27 11:27:18,160 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:18,169 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:18,327 __main__ 0/1 INFO :: RaT = 1.700000e+03; kx = 2.868421e+00; Growth rate = -1.736418615948743e-01; frequency = 3.167391967808355e-14
+2023-09-27 11:27:18,328 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:18,335 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:18,490 __main__ 0/1 INFO :: RaT = 1.700000e+03; kx = 2.921053e+00; Growth rate = -1.296794901818394e-01; frequency = 4.780756090079926e-14
+2023-09-27 11:27:18,491 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:18,500 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:18,678 __main__ 0/1 INFO :: RaT = 1.700000e+03; kx = 2.973684e+00; Growth rate = -9.628503116170531e-02; frequency = 6.955384076459289e-14
+2023-09-27 11:27:18,679 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:18,687 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:18,838 __main__ 0/1 INFO :: RaT = 1.700000e+03; kx = 3.026316e+00; Growth rate = -7.349122303477083e-02; frequency = 9.341057166691253e-14
+2023-09-27 11:27:18,838 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:18,845 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:19,000 __main__ 0/1 INFO :: RaT = 1.700000e+03; kx = 3.078947e+00; Growth rate = -6.132116502065950e-02; frequency = 8.692191802331640e-14
+2023-09-27 11:27:19,001 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:19,009 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:19,161 __main__ 0/1 INFO :: RaT = 1.700000e+03; kx = 3.131579e+00; Growth rate = -5.978899395426052e-02; frequency = 1.405667884361738e-13
+2023-09-27 11:27:19,161 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:19,169 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:19,339 __main__ 0/1 INFO :: RaT = 1.700000e+03; kx = 3.184211e+00; Growth rate = -6.890053080325290e-02; frequency = 1.705880475831055e-13
+2023-09-27 11:27:19,340 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:19,351 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:19,527 __main__ 0/1 INFO :: RaT = 1.700000e+03; kx = 3.236842e+00; Growth rate = -8.865389711041935e-02; frequency = 2.135954212171664e-13
+2023-09-27 11:27:19,527 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:19,535 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:19,697 __main__ 0/1 INFO :: RaT = 1.700000e+03; kx = 3.289474e+00; Growth rate = -1.190401017632611e-01; frequency = 0.000000000000000e+00
+2023-09-27 11:27:19,697 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:19,706 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:19,865 __main__ 0/1 INFO :: RaT = 1.700000e+03; kx = 3.342105e+00; Growth rate = -1.600435986549803e-01; frequency = 0.000000000000000e+00
+2023-09-27 11:27:19,866 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:19,873 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:20,032 __main__ 0/1 INFO :: RaT = 1.700000e+03; kx = 3.394737e+00; Growth rate = -2.116428157340612e-01; frequency = -5.761793984365634e-13
+2023-09-27 11:27:20,033 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:20,040 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:20,201 __main__ 0/1 INFO :: RaT = 1.700000e+03; kx = 3.447368e+00; Growth rate = -2.738106562284615e-01; frequency = 2.142316215408071e-13
+2023-09-27 11:27:20,201 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:20,210 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:20,372 __main__ 0/1 INFO :: RaT = 1.700000e+03; kx = 3.500000e+00; Growth rate = -3.465149727737754e-01; frequency = -1.269402840855415e-12
+2023-09-27 11:27:20,372 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:20,381 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:20,540 __main__ 0/1 INFO :: RaT = 1.704000e+03; kx = 2.500000e+00; Growth rate = -7.465771806800031e-01; frequency = 3.423164892980309e-15
+2023-09-27 11:27:20,541 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:20,549 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:20,732 __main__ 0/1 INFO :: RaT = 1.704000e+03; kx = 2.552632e+00; Growth rate = -6.300491700967077e-01; frequency = 1.814715303307853e-15
+2023-09-27 11:27:20,733 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:20,741 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:20,903 __main__ 0/1 INFO :: RaT = 1.704000e+03; kx = 2.605263e+00; Growth rate = -5.235373567120185e-01; frequency = 8.201083956835871e-15
+2023-09-27 11:27:20,904 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:20,912 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:21,097 __main__ 0/1 INFO :: RaT = 1.704000e+03; kx = 2.657895e+00; Growth rate = -4.271633202784718e-01; frequency = 8.103447155158141e-14
+2023-09-27 11:27:21,097 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:21,106 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:21,302 __main__ 0/1 INFO :: RaT = 1.704000e+03; kx = 2.710526e+00; Growth rate = -3.410334073001547e-01; frequency = 6.139568623658066e-14
+2023-09-27 11:27:21,303 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:21,311 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:21,473 __main__ 0/1 INFO :: RaT = 1.704000e+03; kx = 2.763158e+00; Growth rate = -2.652396177169320e-01; frequency = -6.078528056197804e-14
+2023-09-27 11:27:21,475 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:21,483 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:21,650 __main__ 0/1 INFO :: RaT = 1.704000e+03; kx = 2.815789e+00; Growth rate = -1.998604634893578e-01; frequency = 0.000000000000000e+00
+2023-09-27 11:27:21,651 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:21,659 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:21,823 __main__ 0/1 INFO :: RaT = 1.704000e+03; kx = 2.868421e+00; Growth rate = -1.449617981377564e-01; frequency = -1.863416269021568e-13
+2023-09-27 11:27:21,824 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:21,832 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:21,994 __main__ 0/1 INFO :: RaT = 1.704000e+03; kx = 2.921053e+00; Growth rate = -1.005976165250997e-01; frequency = 0.000000000000000e+00
+2023-09-27 11:27:21,994 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:22,002 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:22,185 __main__ 0/1 INFO :: RaT = 1.704000e+03; kx = 2.973684e+00; Growth rate = -6.681082437961264e-02; frequency = 5.959184478253356e-14
+2023-09-27 11:27:22,186 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:22,194 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:22,356 __main__ 0/1 INFO :: RaT = 1.704000e+03; kx = 3.026316e+00; Growth rate = -4.363397727481038e-02; frequency = 8.420846572360089e-14
+2023-09-27 11:27:22,357 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:22,365 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:22,535 __main__ 0/1 INFO :: RaT = 1.704000e+03; kx = 3.078947e+00; Growth rate = -3.108998892306017e-02; frequency = 1.095369956538303e-13
+2023-09-27 11:27:22,536 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:22,545 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:22,713 __main__ 0/1 INFO :: RaT = 1.704000e+03; kx = 3.131579e+00; Growth rate = -2.919280883830392e-02; frequency = 1.419104176737803e-13
+2023-09-27 11:27:22,713 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:22,721 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:22,910 __main__ 0/1 INFO :: RaT = 1.704000e+03; kx = 3.184211e+00; Growth rate = -3.794806953938567e-02; frequency = 1.696242771901397e-13
+2023-09-27 11:27:22,910 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:22,920 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:23,105 __main__ 0/1 INFO :: RaT = 1.704000e+03; kx = 3.236842e+00; Growth rate = -5.735370360440518e-02; frequency = 2.229669002148524e-13
+2023-09-27 11:27:23,106 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:23,114 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:23,276 __main__ 0/1 INFO :: RaT = 1.704000e+03; kx = 3.289474e+00; Growth rate = -8.740053098341606e-02; frequency = 0.000000000000000e+00
+2023-09-27 11:27:23,277 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:23,285 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:23,447 __main__ 0/1 INFO :: RaT = 1.704000e+03; kx = 3.342105e+00; Growth rate = -1.280728171679775e-01; frequency = 0.000000000000000e+00
+2023-09-27 11:27:23,448 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:23,456 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:23,620 __main__ 0/1 INFO :: RaT = 1.704000e+03; kx = 3.394737e+00; Growth rate = -1.793488025894721e-01; frequency = -6.423441492842626e-13
+2023-09-27 11:27:23,621 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:23,630 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:23,802 __main__ 0/1 INFO :: RaT = 1.704000e+03; kx = 3.447368e+00; Growth rate = -2.412012043908761e-01; frequency = 0.000000000000000e+00
+2023-09-27 11:27:23,803 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:23,820 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:23,982 __main__ 0/1 INFO :: RaT = 1.704000e+03; kx = 3.500000e+00; Growth rate = -3.135976907289403e-01; frequency = -1.291717847157562e-12
+2023-09-27 11:27:23,982 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:23,990 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:24,152 __main__ 0/1 INFO :: RaT = 1.708000e+03; kx = 2.500000e+00; Growth rate = -7.210141219092686e-01; frequency = 5.645291845529143e-15
+2023-09-27 11:27:24,152 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:24,162 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:24,337 __main__ 0/1 INFO :: RaT = 1.708000e+03; kx = 2.552632e+00; Growth rate = -6.040139347543461e-01; frequency = -3.629889901394969e-16
+2023-09-27 11:27:24,338 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:24,346 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:24,496 __main__ 0/1 INFO :: RaT = 1.708000e+03; kx = 2.605263e+00; Growth rate = -4.970405328623566e-01; frequency = -1.403946974075423e-14
+2023-09-27 11:27:24,497 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:24,520 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:24,708 __main__ 0/1 INFO :: RaT = 1.708000e+03; kx = 2.657895e+00; Growth rate = -4.002153606097324e-01; frequency = 3.139733557851492e-13
+2023-09-27 11:27:24,709 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:24,716 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:24,899 __main__ 0/1 INFO :: RaT = 1.708000e+03; kx = 2.710526e+00; Growth rate = -3.136446183674161e-01; frequency = 5.736380296426163e-14
+2023-09-27 11:27:24,899 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:24,908 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:25,071 __main__ 0/1 INFO :: RaT = 1.708000e+03; kx = 2.763158e+00; Growth rate = -2.374201507307777e-01; frequency = -8.549299029677402e-14
+2023-09-27 11:27:25,071 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:25,079 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:25,244 __main__ 0/1 INFO :: RaT = 1.708000e+03; kx = 2.815789e+00; Growth rate = -1.716203065110766e-01; frequency = 0.000000000000000e+00
+2023-09-27 11:27:25,244 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:25,252 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:25,414 __main__ 0/1 INFO :: RaT = 1.708000e+03; kx = 2.868421e+00; Growth rate = -1.163107695533041e-01; frequency = 0.000000000000000e+00
+2023-09-27 11:27:25,415 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:25,423 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:25,585 __main__ 0/1 INFO :: RaT = 1.708000e+03; kx = 2.921053e+00; Growth rate = -7.154535966926349e-02; frequency = 0.000000000000000e+00
+2023-09-27 11:27:25,586 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:25,594 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:25,772 __main__ 0/1 INFO :: RaT = 1.708000e+03; kx = 2.973684e+00; Growth rate = -3.736680318348345e-02; frequency = 6.958468486626254e-14
+2023-09-27 11:27:25,772 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:25,781 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:25,947 __main__ 0/1 INFO :: RaT = 1.708000e+03; kx = 3.026316e+00; Growth rate = -1.380747286739807e-02; frequency = 8.084666451684019e-14
+2023-09-27 11:27:25,947 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:25,956 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:26,117 __main__ 0/1 INFO :: RaT = 1.708000e+03; kx = 3.078947e+00; Growth rate = -8.900970861250747e-04; frequency = 1.314003885342297e-13
+2023-09-27 11:27:26,117 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:26,126 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:26,284 __main__ 0/1 INFO :: RaT = 1.708000e+03; kx = 3.131579e+00; Growth rate = 1.371561801169776e-03; frequency = 1.387016915737729e-13
+2023-09-27 11:27:26,284 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:26,293 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:26,474 __main__ 0/1 INFO :: RaT = 1.708000e+03; kx = 3.184211e+00; Growth rate = -7.027940463768309e-03; frequency = 1.873942567103914e-13
+2023-09-27 11:27:26,474 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:26,483 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:26,663 __main__ 0/1 INFO :: RaT = 1.708000e+03; kx = 3.236842e+00; Growth rate = -2.608634768611149e-02; frequency = 2.419182086408603e-13
+2023-09-27 11:27:26,663 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:26,671 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:26,833 __main__ 0/1 INFO :: RaT = 1.708000e+03; kx = 3.289474e+00; Growth rate = -5.579429108778469e-02; frequency = 0.000000000000000e+00
+2023-09-27 11:27:26,833 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:26,843 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:27,004 __main__ 0/1 INFO :: RaT = 1.708000e+03; kx = 3.342105e+00; Growth rate = -9.613584795230684e-02; frequency = 3.390416413522862e-13
+2023-09-27 11:27:27,005 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:27,013 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:27,173 __main__ 0/1 INFO :: RaT = 1.708000e+03; kx = 3.394737e+00; Growth rate = -1.470890714953615e-01; frequency = -6.446973941233041e-13
+2023-09-27 11:27:27,174 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:27,182 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:27,346 __main__ 0/1 INFO :: RaT = 1.708000e+03; kx = 3.447368e+00; Growth rate = -2.086264929270758e-01; frequency = 0.000000000000000e+00
+2023-09-27 11:27:27,346 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:27,354 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:27,517 __main__ 0/1 INFO :: RaT = 1.708000e+03; kx = 3.500000e+00; Growth rate = -2.807155961871129e-01; frequency = -1.285088595571677e-12
+2023-09-27 11:27:27,517 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:27,526 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:27,688 __main__ 0/1 INFO :: RaT = 1.712000e+03; kx = 2.500000e+00; Growth rate = -6.954755798695587e-01; frequency = 4.626079508549957e-15
+2023-09-27 11:27:27,689 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:27,712 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:27,893 __main__ 0/1 INFO :: RaT = 1.712000e+03; kx = 2.552632e+00; Growth rate = -5.780038886597946e-01; frequency = 7.206242195062819e-15
+2023-09-27 11:27:27,894 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:27,902 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:28,064 __main__ 0/1 INFO :: RaT = 1.712000e+03; kx = 2.605263e+00; Growth rate = -4.705695576347241e-01; frequency = -1.531649369609163e-14
+2023-09-27 11:27:28,065 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:28,073 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:28,253 __main__ 0/1 INFO :: RaT = 1.712000e+03; kx = 2.657895e+00; Growth rate = -3.732938956845438e-01; frequency = 2.505621443239560e-13
+2023-09-27 11:27:28,254 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:28,262 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:28,441 __main__ 0/1 INFO :: RaT = 1.712000e+03; kx = 2.710526e+00; Growth rate = -2.862829569700513e-01; frequency = 4.460401121842190e-14
+2023-09-27 11:27:28,442 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:28,450 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:28,606 __main__ 0/1 INFO :: RaT = 1.712000e+03; kx = 2.763158e+00; Growth rate = -2.096284307229856e-01; frequency = -6.915438772058800e-14
+2023-09-27 11:27:28,606 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:28,615 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:28,780 __main__ 0/1 INFO :: RaT = 1.712000e+03; kx = 2.815789e+00; Growth rate = -1.434085026234897e-01; frequency = 2.485828388300078e-14
+2023-09-27 11:27:28,780 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:28,789 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:28,955 __main__ 0/1 INFO :: RaT = 1.712000e+03; kx = 2.868421e+00; Growth rate = -8.768868688766422e-02; frequency = 0.000000000000000e+00
+2023-09-27 11:27:28,956 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:28,964 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:29,131 __main__ 0/1 INFO :: RaT = 1.712000e+03; kx = 2.921053e+00; Growth rate = -4.252262834359452e-02; frequency = 4.083385983001487e-15
+2023-09-27 11:27:29,131 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:29,140 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:29,323 __main__ 0/1 INFO :: RaT = 1.712000e+03; kx = 2.973684e+00; Growth rate = -7.952874032697515e-03; frequency = 6.451278175652694e-14
+2023-09-27 11:27:29,324 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:29,332 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:29,493 __main__ 0/1 INFO :: RaT = 1.712000e+03; kx = 3.026316e+00; Growth rate = 1.598838593856207e-02; frequency = 1.050648679382223e-13
+2023-09-27 11:27:29,494 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:29,503 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:29,665 __main__ 0/1 INFO :: RaT = 1.712000e+03; kx = 3.078947e+00; Growth rate = 2.927860841353746e-02; frequency = 1.050639691295843e-13
+2023-09-27 11:27:29,666 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:29,674 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:29,839 __main__ 0/1 INFO :: RaT = 1.712000e+03; kx = 3.131579e+00; Growth rate = 3.190421800736642e-02; frequency = 1.430269972028599e-13
+2023-09-27 11:27:29,840 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:29,848 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:30,029 __main__ 0/1 INFO :: RaT = 1.712000e+03; kx = 3.184211e+00; Growth rate = 2.385995854840116e-02; frequency = 1.825795527091078e-13
+2023-09-27 11:27:30,030 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:30,038 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:30,224 __main__ 0/1 INFO :: RaT = 1.712000e+03; kx = 3.236842e+00; Growth rate = 5.148274802098877e-03; frequency = 2.204602816444658e-13
+2023-09-27 11:27:30,224 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:30,233 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:30,397 __main__ 0/1 INFO :: RaT = 1.712000e+03; kx = 3.289474e+00; Growth rate = -2.422127593618700e-02; frequency = 0.000000000000000e+00
+2023-09-27 11:27:30,398 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:30,406 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:30,569 __main__ 0/1 INFO :: RaT = 1.712000e+03; kx = 3.342105e+00; Growth rate = -6.423258296444477e-02; frequency = 3.615290166269783e-13
+2023-09-27 11:27:30,569 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:30,578 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:30,743 __main__ 0/1 INFO :: RaT = 1.712000e+03; kx = 3.394737e+00; Growth rate = -1.148635124769977e-01; frequency = -6.824130402077987e-13
+2023-09-27 11:27:30,743 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:30,753 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:30,919 __main__ 0/1 INFO :: RaT = 1.712000e+03; kx = 3.447368e+00; Growth rate = -1.760864100119066e-01; frequency = -1.173780354841179e-14
+2023-09-27 11:27:30,920 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:30,928 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:27:31,108 __main__ 0/1 INFO :: RaT = 1.712000e+03; kx = 3.500000e+00; Growth rate = -2.478685755148096e-01; frequency = -1.289088069291014e-12
+############################################################################# 
+############################################################################# 
+############################################################################# 
+############################################################################# 
+2023-09-27 11:44:23,873 __main__ 0/1 INFO :: Computing Stability for Pr=1.000e+00, nz = 32
+2023-09-27 11:44:23,875 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:23,883 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:24,048 __main__ 0/1 INFO :: RaT = 1.700000e+03; kx = 2.500000e+00; Growth rate = -7.721648277876956e-01; frequency = -1.806037835907973e-14
+2023-09-27 11:44:24,049 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:24,057 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:24,237 __main__ 0/1 INFO :: RaT = 1.700000e+03; kx = 2.552632e+00; Growth rate = -6.561096688907656e-01; frequency = 1.487878039184556e-14
+2023-09-27 11:44:24,237 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:24,247 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:24,410 __main__ 0/1 INFO :: RaT = 1.700000e+03; kx = 2.605263e+00; Growth rate = -5.500601059557481e-01; frequency = -2.233087457303127e-15
+2023-09-27 11:44:24,411 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:24,420 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:24,604 __main__ 0/1 INFO :: RaT = 1.700000e+03; kx = 2.657895e+00; Growth rate = -4.541378539859521e-01; frequency = -1.356791116940454e-12
+2023-09-27 11:44:24,605 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:24,613 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:24,792 __main__ 0/1 INFO :: RaT = 1.700000e+03; kx = 2.710526e+00; Growth rate = -3.684494055490817e-01; frequency = -2.198834033627017e-14
+2023-09-27 11:44:24,793 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:24,801 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:24,974 __main__ 0/1 INFO :: RaT = 1.700000e+03; kx = 2.763158e+00; Growth rate = -2.930869159023758e-01; frequency = 2.024129373133399e-14
+2023-09-27 11:44:24,975 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:24,983 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:25,145 __main__ 0/1 INFO :: RaT = 1.700000e+03; kx = 2.815789e+00; Growth rate = -2.281290601791854e-01; frequency = 0.000000000000000e+00
+2023-09-27 11:44:25,146 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:25,155 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:25,322 __main__ 0/1 INFO :: RaT = 1.700000e+03; kx = 2.868421e+00; Growth rate = -1.736418615948743e-01; frequency = 3.167391967808355e-14
+2023-09-27 11:44:25,323 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:25,332 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:25,499 __main__ 0/1 INFO :: RaT = 1.700000e+03; kx = 2.921053e+00; Growth rate = -1.296794901818394e-01; frequency = -4.780756090079926e-14
+2023-09-27 11:44:25,499 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:25,508 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:25,690 __main__ 0/1 INFO :: RaT = 1.700000e+03; kx = 2.973684e+00; Growth rate = -9.628503116170531e-02; frequency = 6.955384076459289e-14
+2023-09-27 11:44:25,690 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:25,699 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:25,873 __main__ 0/1 INFO :: RaT = 1.700000e+03; kx = 3.026316e+00; Growth rate = -7.349122303477083e-02; frequency = 9.341057166691253e-14
+2023-09-27 11:44:25,873 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:25,884 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:26,051 __main__ 0/1 INFO :: RaT = 1.700000e+03; kx = 3.078947e+00; Growth rate = -6.132116502065950e-02; frequency = 8.692191802331640e-14
+2023-09-27 11:44:26,052 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:26,061 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:26,225 __main__ 0/1 INFO :: RaT = 1.700000e+03; kx = 3.131579e+00; Growth rate = -5.978899395426052e-02; frequency = 1.405667884361738e-13
+2023-09-27 11:44:26,226 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:26,235 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:26,424 __main__ 0/1 INFO :: RaT = 1.700000e+03; kx = 3.184211e+00; Growth rate = -6.890053080325290e-02; frequency = 1.705880475831055e-13
+2023-09-27 11:44:26,425 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:26,435 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:26,624 __main__ 0/1 INFO :: RaT = 1.700000e+03; kx = 3.236842e+00; Growth rate = -8.865389711041935e-02; frequency = 2.135954212171664e-13
+2023-09-27 11:44:26,624 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:26,633 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:26,802 __main__ 0/1 INFO :: RaT = 1.700000e+03; kx = 3.289474e+00; Growth rate = -1.190401017632611e-01; frequency = 0.000000000000000e+00
+2023-09-27 11:44:26,803 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:26,813 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:26,985 __main__ 0/1 INFO :: RaT = 1.700000e+03; kx = 3.342105e+00; Growth rate = -1.600435986549803e-01; frequency = 0.000000000000000e+00
+2023-09-27 11:44:26,985 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:26,995 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:27,158 __main__ 0/1 INFO :: RaT = 1.700000e+03; kx = 3.394737e+00; Growth rate = -2.116428157340612e-01; frequency = -5.761793984365634e-13
+2023-09-27 11:44:27,159 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:27,167 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:27,335 __main__ 0/1 INFO :: RaT = 1.700000e+03; kx = 3.447368e+00; Growth rate = -2.738106562284615e-01; frequency = 2.142316215408071e-13
+2023-09-27 11:44:27,336 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:27,345 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:27,512 __main__ 0/1 INFO :: RaT = 1.700000e+03; kx = 3.500000e+00; Growth rate = -3.465149727737754e-01; frequency = -1.269402840855415e-12
+2023-09-27 11:44:27,513 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:27,522 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:27,686 __main__ 0/1 INFO :: RaT = 1.704000e+03; kx = 2.500000e+00; Growth rate = -7.465771806800031e-01; frequency = -3.423164892980309e-15
+2023-09-27 11:44:27,686 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:27,694 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:27,874 __main__ 0/1 INFO :: RaT = 1.704000e+03; kx = 2.552632e+00; Growth rate = -6.300491700967077e-01; frequency = 1.814715303307853e-15
+2023-09-27 11:44:27,874 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:27,899 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:28,061 __main__ 0/1 INFO :: RaT = 1.704000e+03; kx = 2.605263e+00; Growth rate = -5.235373567120185e-01; frequency = -8.201083956835871e-15
+2023-09-27 11:44:28,062 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:28,070 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:28,259 __main__ 0/1 INFO :: RaT = 1.704000e+03; kx = 2.657895e+00; Growth rate = -4.271633202784718e-01; frequency = -8.103447155158141e-14
+2023-09-27 11:44:28,260 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:28,268 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:28,447 __main__ 0/1 INFO :: RaT = 1.704000e+03; kx = 2.710526e+00; Growth rate = -3.410334073001547e-01; frequency = -6.139568623658066e-14
+2023-09-27 11:44:28,447 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:28,456 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:28,618 __main__ 0/1 INFO :: RaT = 1.704000e+03; kx = 2.763158e+00; Growth rate = -2.652396177169320e-01; frequency = 6.078528056197804e-14
+2023-09-27 11:44:28,618 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:28,628 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:28,793 __main__ 0/1 INFO :: RaT = 1.704000e+03; kx = 2.815789e+00; Growth rate = -1.998604634893578e-01; frequency = 0.000000000000000e+00
+2023-09-27 11:44:28,794 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:28,802 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:28,968 __main__ 0/1 INFO :: RaT = 1.704000e+03; kx = 2.868421e+00; Growth rate = -1.449617981377564e-01; frequency = 1.863416269021568e-13
+2023-09-27 11:44:28,971 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:28,981 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:29,148 __main__ 0/1 INFO :: RaT = 1.704000e+03; kx = 2.921053e+00; Growth rate = -1.005976165250997e-01; frequency = 0.000000000000000e+00
+2023-09-27 11:44:29,149 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:29,158 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:29,346 __main__ 0/1 INFO :: RaT = 1.704000e+03; kx = 2.973684e+00; Growth rate = -6.681082437961264e-02; frequency = 5.959184478253356e-14
+2023-09-27 11:44:29,347 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:29,357 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:29,519 __main__ 0/1 INFO :: RaT = 1.704000e+03; kx = 3.026316e+00; Growth rate = -4.363397727481038e-02; frequency = 8.420846572360089e-14
+2023-09-27 11:44:29,519 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:29,527 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:29,685 __main__ 0/1 INFO :: RaT = 1.704000e+03; kx = 3.078947e+00; Growth rate = -3.108998892306017e-02; frequency = 1.095369956538303e-13
+2023-09-27 11:44:29,686 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:29,694 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:29,857 __main__ 0/1 INFO :: RaT = 1.704000e+03; kx = 3.131579e+00; Growth rate = -2.919280883830392e-02; frequency = 1.419104176737803e-13
+2023-09-27 11:44:29,858 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:29,866 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:30,056 __main__ 0/1 INFO :: RaT = 1.704000e+03; kx = 3.184211e+00; Growth rate = -3.794806953938567e-02; frequency = 1.696242771901397e-13
+2023-09-27 11:44:30,057 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:30,065 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:30,249 __main__ 0/1 INFO :: RaT = 1.704000e+03; kx = 3.236842e+00; Growth rate = -5.735370360440518e-02; frequency = 2.229669002148524e-13
+2023-09-27 11:44:30,249 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:30,258 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:30,420 __main__ 0/1 INFO :: RaT = 1.704000e+03; kx = 3.289474e+00; Growth rate = -8.740053098341606e-02; frequency = 0.000000000000000e+00
+2023-09-27 11:44:30,420 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:30,429 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:30,590 __main__ 0/1 INFO :: RaT = 1.704000e+03; kx = 3.342105e+00; Growth rate = -1.280728171679775e-01; frequency = 0.000000000000000e+00
+2023-09-27 11:44:30,590 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:30,599 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:30,760 __main__ 0/1 INFO :: RaT = 1.704000e+03; kx = 3.394737e+00; Growth rate = -1.793488025894721e-01; frequency = -6.423441492842626e-13
+2023-09-27 11:44:30,761 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:30,786 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:30,952 __main__ 0/1 INFO :: RaT = 1.704000e+03; kx = 3.447368e+00; Growth rate = -2.412012043908761e-01; frequency = 0.000000000000000e+00
+2023-09-27 11:44:30,953 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:30,961 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:31,124 __main__ 0/1 INFO :: RaT = 1.704000e+03; kx = 3.500000e+00; Growth rate = -3.135976907289403e-01; frequency = -1.291717847157562e-12
+2023-09-27 11:44:31,124 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:31,133 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:31,294 __main__ 0/1 INFO :: RaT = 1.708000e+03; kx = 2.500000e+00; Growth rate = -7.210141219092686e-01; frequency = -5.645291845529143e-15
+2023-09-27 11:44:31,295 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:31,304 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:31,483 __main__ 0/1 INFO :: RaT = 1.708000e+03; kx = 2.552632e+00; Growth rate = -6.040139347543461e-01; frequency = -3.629889901394969e-16
+2023-09-27 11:44:31,484 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:31,492 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:31,654 __main__ 0/1 INFO :: RaT = 1.708000e+03; kx = 2.605263e+00; Growth rate = -4.970405328623566e-01; frequency = 1.403946974075423e-14
+2023-09-27 11:44:31,654 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:31,663 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:31,848 __main__ 0/1 INFO :: RaT = 1.708000e+03; kx = 2.657895e+00; Growth rate = -4.002153606097324e-01; frequency = -3.139733557851492e-13
+2023-09-27 11:44:31,848 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:31,857 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:32,034 __main__ 0/1 INFO :: RaT = 1.708000e+03; kx = 2.710526e+00; Growth rate = -3.136446183674161e-01; frequency = -5.736380296426163e-14
+2023-09-27 11:44:32,034 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:32,042 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:32,205 __main__ 0/1 INFO :: RaT = 1.708000e+03; kx = 2.763158e+00; Growth rate = -2.374201507307777e-01; frequency = 8.549299029677402e-14
+2023-09-27 11:44:32,205 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:32,214 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:32,376 __main__ 0/1 INFO :: RaT = 1.708000e+03; kx = 2.815789e+00; Growth rate = -1.716203065110766e-01; frequency = 0.000000000000000e+00
+2023-09-27 11:44:32,377 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:32,386 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:32,553 __main__ 0/1 INFO :: RaT = 1.708000e+03; kx = 2.868421e+00; Growth rate = -1.163107695533041e-01; frequency = 0.000000000000000e+00
+2023-09-27 11:44:32,553 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:32,561 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:32,725 __main__ 0/1 INFO :: RaT = 1.708000e+03; kx = 2.921053e+00; Growth rate = -7.154535966926349e-02; frequency = 0.000000000000000e+00
+2023-09-27 11:44:32,750 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:32,759 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:32,940 __main__ 0/1 INFO :: RaT = 1.708000e+03; kx = 2.973684e+00; Growth rate = -3.736680318348345e-02; frequency = 6.958468486626254e-14
+2023-09-27 11:44:32,940 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:32,949 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:33,112 __main__ 0/1 INFO :: RaT = 1.708000e+03; kx = 3.026316e+00; Growth rate = -1.380747286739807e-02; frequency = 8.084666451684019e-14
+2023-09-27 11:44:33,113 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:33,125 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:33,288 __main__ 0/1 INFO :: RaT = 1.708000e+03; kx = 3.078947e+00; Growth rate = -8.900970861250747e-04; frequency = 1.314003885342297e-13
+2023-09-27 11:44:33,289 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:33,298 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:33,459 __main__ 0/1 INFO :: RaT = 1.708000e+03; kx = 3.131579e+00; Growth rate = 1.371561801169776e-03; frequency = 1.387016915737729e-13
+2023-09-27 11:44:33,459 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:33,468 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:33,648 __main__ 0/1 INFO :: RaT = 1.708000e+03; kx = 3.184211e+00; Growth rate = -7.027940463768309e-03; frequency = 1.873942567103914e-13
+2023-09-27 11:44:33,649 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:33,657 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:33,850 __main__ 0/1 INFO :: RaT = 1.708000e+03; kx = 3.236842e+00; Growth rate = -2.608634768611149e-02; frequency = 2.419182086408603e-13
+2023-09-27 11:44:33,850 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:33,859 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:34,017 __main__ 0/1 INFO :: RaT = 1.708000e+03; kx = 3.289474e+00; Growth rate = -5.579429108778469e-02; frequency = 0.000000000000000e+00
+2023-09-27 11:44:34,017 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:34,026 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:34,185 __main__ 0/1 INFO :: RaT = 1.708000e+03; kx = 3.342105e+00; Growth rate = -9.613584795230684e-02; frequency = -3.390416413522862e-13
+2023-09-27 11:44:34,185 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:34,195 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:34,352 __main__ 0/1 INFO :: RaT = 1.708000e+03; kx = 3.394737e+00; Growth rate = -1.470890714953615e-01; frequency = -6.446973941233041e-13
+2023-09-27 11:44:34,353 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:34,362 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:34,527 __main__ 0/1 INFO :: RaT = 1.708000e+03; kx = 3.447368e+00; Growth rate = -2.086264929270758e-01; frequency = 0.000000000000000e+00
+2023-09-27 11:44:34,528 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:34,537 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:34,699 __main__ 0/1 INFO :: RaT = 1.708000e+03; kx = 3.500000e+00; Growth rate = -2.807155961871129e-01; frequency = -1.285088595571677e-12
+2023-09-27 11:44:34,699 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:34,710 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:34,871 __main__ 0/1 INFO :: RaT = 1.712000e+03; kx = 2.500000e+00; Growth rate = -6.954755798695587e-01; frequency = -4.626079508549957e-15
+2023-09-27 11:44:34,872 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:34,880 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:35,064 __main__ 0/1 INFO :: RaT = 1.712000e+03; kx = 2.552632e+00; Growth rate = -5.780038886597946e-01; frequency = 7.206242195062819e-15
+2023-09-27 11:44:35,065 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:35,073 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:35,229 __main__ 0/1 INFO :: RaT = 1.712000e+03; kx = 2.605263e+00; Growth rate = -4.705695576347241e-01; frequency = 1.531649369609163e-14
+2023-09-27 11:44:35,230 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:35,241 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:35,427 __main__ 0/1 INFO :: RaT = 1.712000e+03; kx = 2.657895e+00; Growth rate = -3.732938956845438e-01; frequency = -2.505621443239560e-13
+2023-09-27 11:44:35,427 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:35,436 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:35,618 __main__ 0/1 INFO :: RaT = 1.712000e+03; kx = 2.710526e+00; Growth rate = -2.862829569700513e-01; frequency = -4.460401121842190e-14
+2023-09-27 11:44:35,619 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:35,628 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:35,789 __main__ 0/1 INFO :: RaT = 1.712000e+03; kx = 2.763158e+00; Growth rate = -2.096284307229856e-01; frequency = 6.915438772058800e-14
+2023-09-27 11:44:35,789 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:35,799 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:35,967 __main__ 0/1 INFO :: RaT = 1.712000e+03; kx = 2.815789e+00; Growth rate = -1.434085026234897e-01; frequency = 2.485828388300078e-14
+2023-09-27 11:44:35,967 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:35,975 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:36,142 __main__ 0/1 INFO :: RaT = 1.712000e+03; kx = 2.868421e+00; Growth rate = -8.768868688766422e-02; frequency = 0.000000000000000e+00
+2023-09-27 11:44:36,143 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:36,152 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:36,319 __main__ 0/1 INFO :: RaT = 1.712000e+03; kx = 2.921053e+00; Growth rate = -4.252262834359452e-02; frequency = 4.083385983001487e-15
+2023-09-27 11:44:36,319 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:36,329 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:36,509 __main__ 0/1 INFO :: RaT = 1.712000e+03; kx = 2.973684e+00; Growth rate = -7.952874032697515e-03; frequency = 6.451278175652694e-14
+2023-09-27 11:44:36,510 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:36,518 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:36,675 __main__ 0/1 INFO :: RaT = 1.712000e+03; kx = 3.026316e+00; Growth rate = 1.598838593856207e-02; frequency = 1.050648679382223e-13
+2023-09-27 11:44:36,675 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:36,700 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:36,863 __main__ 0/1 INFO :: RaT = 1.712000e+03; kx = 3.078947e+00; Growth rate = 2.927860841353746e-02; frequency = 1.050639691295843e-13
+2023-09-27 11:44:36,863 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:36,872 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:37,037 __main__ 0/1 INFO :: RaT = 1.712000e+03; kx = 3.131579e+00; Growth rate = 3.190421800736642e-02; frequency = 1.430269972028599e-13
+2023-09-27 11:44:37,037 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:37,046 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:37,227 __main__ 0/1 INFO :: RaT = 1.712000e+03; kx = 3.184211e+00; Growth rate = 2.385995854840116e-02; frequency = 1.825795527091078e-13
+2023-09-27 11:44:37,227 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:37,236 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:37,417 __main__ 0/1 INFO :: RaT = 1.712000e+03; kx = 3.236842e+00; Growth rate = 5.148274802098877e-03; frequency = 2.204602816444658e-13
+2023-09-27 11:44:37,417 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:37,427 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:37,594 __main__ 0/1 INFO :: RaT = 1.712000e+03; kx = 3.289474e+00; Growth rate = -2.422127593618700e-02; frequency = 0.000000000000000e+00
+2023-09-27 11:44:37,594 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:37,603 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:37,768 __main__ 0/1 INFO :: RaT = 1.712000e+03; kx = 3.342105e+00; Growth rate = -6.423258296444477e-02; frequency = -3.615290166269783e-13
+2023-09-27 11:44:37,768 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:37,778 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:37,938 __main__ 0/1 INFO :: RaT = 1.712000e+03; kx = 3.394737e+00; Growth rate = -1.148635124769977e-01; frequency = -6.824130402077987e-13
+2023-09-27 11:44:37,938 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:37,947 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:38,115 __main__ 0/1 INFO :: RaT = 1.712000e+03; kx = 3.447368e+00; Growth rate = -1.760864100119066e-01; frequency = -1.173780354841179e-14
+2023-09-27 11:44:38,116 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:38,124 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-09-27 11:44:38,288 __main__ 0/1 INFO :: RaT = 1.712000e+03; kx = 3.500000e+00; Growth rate = -2.478685755148096e-01; frequency = -1.289088069291014e-12
+############################################################################# 
